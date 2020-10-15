@@ -21,6 +21,7 @@ import utils.DBUtil;
 public class ReportsEditServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
+
     public ReportsEditServlet() {
         super();
         // TODO Auto-generated constructor stub
@@ -46,5 +47,4 @@ public class ReportsEditServlet extends HttpServlet {
         RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/reports/edit.jsp");
         rd.forward(request, response);
     }
-
 }
