@@ -25,5 +25,12 @@
 <textarea name="content" rows="10" cols="50">${report.content}</textarea>
 <br /><br />
 
+<label for="comment">改善コメント</label><br />
+<textarea name="comment" rows="4" cols="30">${report.comment}</textarea>
+<br /><br />
+
+
+
+
 <input type="hidden" name="_token" value="${_token}" />
 <button type="submit">投稿</button>
